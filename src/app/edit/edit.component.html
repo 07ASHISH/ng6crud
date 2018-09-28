@@ -1,0 +1,39 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    {{ title }}
+  </div>
+  <div class="panel-body">
+    <form [formGroup]="angForm" novalidate>
+      <div class="form-group">
+        <label class="col-md-4">User Name</label>
+        <input type="text" class="form-control" formControlName="name" #name [(ngModel)] = "user.name"/>
+      </div>
+      <div *ngIf="angForm.controls['name'].invalid && (angForm.controls['name'].dirty || angForm.controls['name'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['name'].errors.required">
+          Name is required.
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-4">Coin age</label>
+        <input type="text" class="form-control" formControlName="age" #age [(ngModel)] = "user.age" />
+      </div>
+      <div *ngIf="angForm.controls['age'].invalid && (angForm.controls['age'].dirty || angForm.controls['age'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['age'].errors.required">
+          age is required.
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-md-4">Coin Email</label>
+        <input type="text" class="form-control" formControlName="email" #email [(ngModel)] = "user.email" />
+      </div>
+      <div *ngIf="angForm.controls['email'].invalid && (angForm.controls['email'].dirty || angForm.controls['email'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['email'].errors.required">
+          email is required.
+        </div>
+      </div>
+        <div class="form-group">
+          <button (click)="updateCoin(angForm)"  class="btn btn-primary">Update</button>
+        </div>
+    </form>
+  </div>
+</div>

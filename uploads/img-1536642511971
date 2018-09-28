@@ -1,0 +1,225 @@
+http://172.16.16.16:8090/httpclient.html
+vandana.pareek
+123
+
+
+
+Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process
+
+
+switch php versions 
+https://askubuntu.com/questions/761713/how-can-i-downgrade-from-php-7-to-php-5-6-on-ubuntu-16-04
+
+
+From php5.6 to php7.0: 
+sudo a2dismod php5.6 ; sudo a2enmod php7.0 ; sudo service apache2 restart
+sudo update-alternatives --set php /usr/bin/php7.0
+
+
+From php7.0 to php5.6: 
+sudo a2dismod php7.0 ; sudo a2enmod php5.6 ; sudo service apache2 restart
+sudo update-alternatives --set php /usr/bin/php5.6
+
+
+laravel admin themes::::
+http://itsolutionstuff.com/post/laravel-5-create-quick-backend-admin-panel-tutorialexample.html
+https://learninglaravel.net/adminlte-template-laravel-5-package
+http://gethealthnutrition.com/gethealth_sept4.zip
+
+
+
+
+
+
+//ccavenue payment files 
+
+/var/www/html/riesthan_live/wp-content/themes/hestia/template-parts/template-payment.php
+/var/www/html/riesthan_live/wp-content/themes/hestia/template-parts/content-ccavenue.php
+
+
+
+------------------------------------------------
+mantis
+http://192.168.1.189/mantis
+
+----------------------------------------------
+https://shubhashish.org:2083    shubhashish.co.in
+u: shubh
+p: Shubh#@4355!
+------------------------------------------------
+wireframe URL -
+https://xwy8a3.axshare.com
+rie2018
+---------------------------------------------------
+ssh -q kailash@192.168.1.189
+password: 123
+----------------------------------------------------
+ccavenue details
+man_150450
+cyber@1234
+
+--------------------------
+ssh -q kailash@192.168.1.189
+123
+--------------------------
+
+workdemo4u.com:2083
+UserName: workdemo4u
+PassWord: JBIT@123!!
+
+
+----------------------------------
+gantt chart:
+https://prod.teamgantt.com
+kapil.khandal@shubhashish.in
+123456
+
+----------------------------
+bugsheet
+https://docs.google.com/spreadsheets/d/1-zP66SnXT7j0AlY3j4Hb6OPZ1ngGv9RRTo8IPR0x3VU/edit#gid=0
+-------------------------------
+SELECT invoice_no FROM tie_paytm_donation group by invoice_no having count(*) >= 2
+--------------------------
+
+workdemo4u.com:2083
+UserName: workdemo4u
+PassWord: JBIT@123!!
+--------------------------------------
+
+https://prod.teamgantt.com
+prod.teamgantt.com
+TeamGantt
+
+kapil.khandal@shubhashish.in
+123456
+
+---------------------------------
+mysql > SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+https://stackoverflow.com/questions/37951742/1055-expression-of-select-list-is-not-in-group-by-clause-and-contains-nonaggr
+-----------------------------------
+
+online parse get request
+https://planetcalc.com/2135/
+
+-----------------------------------
+
+scp -r root@159.89.162.133:/var/www/html/website_22feb.zip /var/www/html/
+
+---------------------------------------------------------------------
+
+sudo a2dismod php5.6
+sudo a2enmod php7.0
+sudo service apache2 restart
+
+--------------------------------------------------------
+vA-d9#}HfF@S
+Szmi{n3x3hVf
+
+----------------------------------------
+http://192.168.1.189/redmine/projects/breeze/issues
+vandana.pareek@shubhashish.in
+redmine1234
+----------------------------------
+
+sudo a2dismod php7.0
+sudo a2enmod php5.6
+
+sudo service apache2 restart
+
+
+--------------------
+The only supported ciphers are AES-128-CBC and AES-256-CBC with the correct key lengths.
+
+
+
+cron jobs
+crontab -l(will list all existing cronjobs)
+crontab -r( to remove all the cont jobs.)
+crontab -e(create new cron job ) */1 * * * * php -q /var/www/html/lms/cron.php
+crontab -e(create new cron job ) * 1 * * * wget -q http://192.168.1.216/kitchen/admin/foods/foodAlgo
+ 
+-----------------------------
+New server deployment :
+
+enable rewrite mode for .htaccess
+enable mbstring,intl extension
+enable curl/install
+post_max_filesize,upload_max_size=40M
+proper permission to folders(tmp,cache,webroot)
+
+for notification enable port
+
+sudo ufw allow 1935
+sudo ufw enable
+ufw status
+
+
+for .ini changes
+nano /etc/php/5.6/cli/php.ini
+
+-------------------------------
+mongo commands
+mongorestore --host localhost --port 27017 --dir ./ --authenticationDatabase uber
+root@uber:~# mongorestore --db uber ./
+ mongorestore --host localhost --port 27017
+ mongorestore --host localhost --port 27017 --dir ./ --authenticationDatabase uber
+
+sudo systemctl restart  mongod
+---------------------------------
+https://www.tutorialspoint.com/nodejs/nodejs_first_application.htm
+
+-----------------------------------
+/usr/local/lib/node_modules
+--------------------------------------
+sudo dpkg -i rocketchat_2.9.0_amd64.deb 
+-----------------------------------------
+
+
+shubit
+U!E(oR&L4*45
+https://shubhashishit.com:2083/
+-----------------------------------------------------
+
+http://139.59.42.144/uber/administrator/
+admin
+arcane
+-----------------------------------------------------
+root@uber:/var/www/html/uber/arcaneDB# mongorestore -d uber arcane2/
+--------------------------------------------------------------------------
+
+http://shubhashish.co.in/phpMyAdmin/
+u - shubh_ukitchen
+p - q+w}TD+Xllay
+shubhashish.co.in
+phpMyAdmin
+---------------------------------------------------------------------------
+https://www.eo-spark.com/
+
+
+Admin: https://www.eo-spark.com/wp-admin
+
+Admin Login: eospark-admin
+
+Admin Password: eTP916((jJg*fMynXroMBf3J
+
+---------
+https://register.eo-spark.com/
+ 
+
+206.189.33.59
+
+eospark-reg
+
+F-KNPT"X,M9fLx8/
+
+ 
+ daisy@aol.com
+ testing123
+---------------------------------
+/public_html/wp-content/themes/eo2018/partials/loop-page.php
+/public_html/wp-content/themes/eo2018/page.php
+view-source:https://register.eo-spark.com/wp-content/themes/eo2018/library/js/scripts.min.js?ver=1.1  (define template url;)
+
+
+ ARI Adminer was successfully deleted. 
